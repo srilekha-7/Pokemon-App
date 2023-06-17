@@ -1,0 +1,79 @@
+.card-container{
+    background-color: #ffd502;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-el{
+    border: 0px;
+    height: 50px;
+    width: 200px;
+border-radius: 10px;
+margin: 1%;
+padding: 1%;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+}
+.poke-name{
+    color: #ff08a0;
+    font-family: "Bree-Serif";
+    text-align: center;
+}
+.search-button{
+    border: 0px;
+    height: 50px;
+    width: 150px;
+border-radius: 5px;
+margin: 1%;
+padding: 1%;
+color: white;
+background-color: #02d1ff;
+}
+.pokemon-card{
+    background-color: #c585f9;
+    border-radius: 10px;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    font-family: "Bree-Serif";
+    font-size: 20px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pokemon-el{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.poke-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.listing-page-button{
+    border: 0px;
+    height: 50px;
+    width: 150px;
+border-radius: 5px;
+margin: 1%;
+margin-left: 2%;
+margin-right: 2%;
+padding: 1%;
+color: white;
+background-color: #02d1ff;
+align-items: center;
+
+}

@@ -1,0 +1,62 @@
+.card-container-2{
+    background-color: #ffd502;
+    background-size: cover;
+    padding: 10px;
+   
+}
+.poke-name{
+    color: #ff08a0;
+    font-family: "Bree-Serif";
+    
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.poke-each-card{
+    background-color: #5ee85c;
+    color: white;
+    font-family: "Bree-Serif";
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 3%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.listing-container{
+    width: 40%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.details-card{
+width: 60%;
+}
+.vl {
+    border-left: 2px solid  #5ee85c;
+    height: 100vh;
+    position: absolute;
+    left: 30%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .loader{
+    align-items: center;
+  }
+  .listing-card{
+    display: flex;
+    flex-direction: row;
+  }
+  .page-buttons{
+    display: flex;
+    flex-direction: row;
+   
+  }
